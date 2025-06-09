@@ -2,8 +2,6 @@
 
 ![Java Version](https://img.shields.io/badge/Java-17+-blue.svg)
 ![API Version](https://img.shields.io/badge/API-Paper_1.17+-green.svg)
-![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
-[![GitHub issues](https://img.shields.io/github/issues/YourUsername/PlayerLeash)](https://github.com/YourUsername/PlayerLeash/issues)
 
 A lightweight, standalone Minecraft plugin for Paper/Spigot servers that allows players to leash other players with a invisible rope.
 
