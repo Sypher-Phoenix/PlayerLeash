@@ -1,0 +1,10 @@
+name: PlayerLeash
+version: '1.0.0'
+main: org.sypherphoenix.playerLeash.PlayerLeashPlugin
+api-version: '1.20'
+author: SypherPhoenix
+description: Allows players to leash other players.
+permissions:
+  playerleash.use:
+    description: "Allows a player to use a lead on another player."
+    default: op

@@ -1,0 +1,29 @@
+# -------------------------------------------------- #
+#             PlayerLeash Configuration              #
+# -------------------------------------------------- #
+
+# Settings related to the behavior of the player leash.
+leash:
+  # The strength of the "tug" when players move too far apart.
+  # This value is a multiplier for the pull force.
+  # Higher values mean a stronger, more sudden pull.
+  # (Default: 0.4)
+  strength: 0.4
+
+  # Settings related to the distances at which the leash behaves differently.
+  distance:
+    # The distance (in blocks) at which players will start being gently
+    # pulled towards each other. This should be less than the 'max' distance.
+    # (Default: 8.0)
+    tug: 8.0
+
+    # The maximum distance (in blocks) players can be from each other
+    # before the leash snaps and breaks completely.
+    # (Default: 12.0)
+    max: 12.0
+
+  # If true, the leash will automatically break if either the leash holder
+  # or the leashed player dies.
+  # If false, the leash will persist through death.
+  # (Default: true)
+  break-on-death: true
